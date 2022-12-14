@@ -1,0 +1,57 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: forestgreen;
+    color: darkred;
+}
+
+body{
+    background-color: yellow
+    ;
+}
+
+.centered{
+    text-align: center;
+}
+
+
+.main {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url(./images/cornmain.jpg);
+    background-position: center;
+    position:relative 
+
+}
+
+a:hover {
+    color: rgb(34, 80, 61);
+}
+
+.header{
+    display: block;
+    width: 100%;
+    font-size: 40px;
+}
+
+header nav ul li {
+display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+    float: right;
+
+}
+
+main section{
+    display: inline;
+    height: 150px;
+    width: 100%;
+}
+
+.form {
+    display: block;
+}
+
+.footer{
+    text-align: center;
+}
